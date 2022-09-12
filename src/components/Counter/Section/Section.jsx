@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { StyledSection } from './Section.styled';
+import { StyledTitle } from './Section.styled';
 
 const Section = ({ title, children }) => (
-  <section>
-    <h1>{title}</h1>
+  <StyledSection>
+    <StyledTitle>{title}</StyledTitle>
     {children}
-  </section>
+  </StyledSection>
 );
 
 Section.propTypes = {

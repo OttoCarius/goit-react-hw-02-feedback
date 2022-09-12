@@ -1,39 +1,39 @@
 export const theme = {
-  //   colors: {
-  //     white: '#ffffff',
-  //     black: '#000000',
+  colors: {
+    white: '#ffffff',
+    black: '#000000',
 
-  //     accent: '#40de10',
-  //     primaryBackground: '',
-  //     secondaryBackground: '',
+    accent: '#40de10',
+    primaryBackground: '',
+    secondaryBackground: '',
 
-  //     text: {
-  //       sectionTitle: '#FFAC1C',
-  //       primaryText: '#414141',
-  //       secondaryText: '',
-  //       accent: '#2ee59d',
-  //     },
+    text: {
+      sectionTitle: '#FFAC1C',
+      primaryText: '#202c2d;',
+      secondaryText: '',
+      accent: '#2ee59d',
+    },
 
-  //     button: {
-  //       primaryBtnBackground: '#ffffff',
-  //       secondaryBtnBackground: '#de7676',
-  //       accentBtnBackground: '#2ee59d',
-  //       inputBorder: '#2ee59d66',
-  //       btnShadow: '#2ee59d66',
-  //       text: '#40de10',
+    button: {
+      primaryBtnBackground: '#ffffff',
+      secondaryBtnBackground: '#de7676',
+      accentBtnBackground: '#2ee59d',
+      inputBorder: '#2ee59d66',
+      btnShadow: '#2ee59d66',
+      text: '#40de10',
 
-  //       primaryBtn: '',
-  //     },
+      primaryBtn: '',
+    },
 
-  //     form: {
-  //       formBorder: ' teal',
-  //       formTitle: '#212121',
-  //       formText: '#414141',
-  //       formPlaceholder: '',
-  //     },
+    form: {
+      formBorder: ' teal',
+      formTitle: '#212121',
+      formText: '#414141',
+      formPlaceholder: '',
+    },
 
-  //     searchInput: '',
-  //   },
+    searchInput: '',
+  },
 
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024],
 
@@ -96,3 +96,5 @@ export const theme = {
     round: '50%',
   },
 };
+
+export default theme;
