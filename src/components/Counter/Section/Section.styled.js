@@ -13,4 +13,5 @@ export const StyledTitle = styled.h1`
     -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
   font-weight: ${p => p.theme.fontWeights.semiBold};
   padding: ${p => p.theme.space[4]}px;
+  text-align: center;
 `;
